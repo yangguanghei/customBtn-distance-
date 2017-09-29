@@ -15,6 +15,7 @@
 		C155CEA31F7E4DE500AECC63 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C155CEA11F7E4DE500AECC63 /* LaunchScreen.storyboard */; };
 		C155CEAE1F7E4DE600AECC63 /* ____________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = C155CEAD1F7E4DE600AECC63 /* ____________Tests.m */; };
 		C155CEB91F7E4DE600AECC63 /* ____________UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C155CEB81F7E4DE600AECC63 /* ____________UITests.m */; };
+		C155CEC81F7E4E0800AECC63 /* FL_Button.m in Sources */ = {isa = PBXBuildFile; fileRef = C155CEC71F7E4E0800AECC63 /* FL_Button.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		C155CEB41F7E4DE600AECC63 /* 自定义按钮文本和图片间距UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "自定义按钮文本和图片间距UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C155CEB81F7E4DE600AECC63 /* ____________UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____________UITests.m"; sourceTree = "<group>"; };
 		C155CEBA1F7E4DE600AECC63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C155CEC61F7E4E0800AECC63 /* FL_Button.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FL_Button.h; sourceTree = "<group>"; };
+		C155CEC71F7E4E0800AECC63 /* FL_Button.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FL_Button.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,6 +104,8 @@
 		C155CE921F7E4DE500AECC63 /* 自定义按钮文本和图片间距 */ = {
 			isa = PBXGroup;
 			children = (
+				C155CEC61F7E4E0800AECC63 /* FL_Button.h */,
+				C155CEC71F7E4E0800AECC63 /* FL_Button.m */,
 				C155CE961F7E4DE500AECC63 /* AppDelegate.h */,
 				C155CE971F7E4DE500AECC63 /* AppDelegate.m */,
 				C155CE991F7E4DE500AECC63 /* ViewController.h */,
@@ -279,6 +284,7 @@
 				C155CE9B1F7E4DE500AECC63 /* ViewController.m in Sources */,
 				C155CE981F7E4DE500AECC63 /* AppDelegate.m in Sources */,
 				C155CE951F7E4DE500AECC63 /* main.m in Sources */,
+				C155CEC81F7E4E0800AECC63 /* FL_Button.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -429,6 +435,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = XJL3Q5Y9Q6;
 				INFOPLIST_FILE = "自定义按钮文本和图片间距/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "----------.------------";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -441,6 +448,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				DEVELOPMENT_TEAM = XJL3Q5Y9Q6;
 				INFOPLIST_FILE = "自定义按钮文本和图片间距/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "----------.------------";
 				PRODUCT_NAME = "$(TARGET_NAME)";

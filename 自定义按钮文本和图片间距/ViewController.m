@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "FL_Button.h"
 @interface ViewController ()
 
 @end
@@ -17,6 +17,20 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    NSArray *statusAry = @[@(FLAlignmentStatusNormal), @(FLAlignmentStatusImageLeft), @(FLAlignmentStatusLeft), @(FLAlignmentStatusCenter), @(FLAlignmentStatusRight), @(FLAlignmentStatusTop), @(FLAlignmentStatusBottom)];
+    FL_Button *button1 = [FL_Button buttonWithType:UIButtonTypeCustom];
+    [button1 setTitle:@"哇哈哈" forState:UIControlStateNormal];
+    [button1 setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
+    [button1 setImage:[UIImage imageNamed:@"buy"] forState:UIControlStateNormal];
+    button1.status = [statusAry[5] floatValue];
+    button1.fl_padding = 10;
+    
+    [self.view addSubview:button1];
+    button1.frame = CGRectMake(0, 0, self.view.frame.size.width, 100);
+    button1.backgroundColor = [UIColor redColor];
+    
+    
 }
 
 
