@@ -1,0 +1,539 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C155CE951F7E4DE500AECC63 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = C155CE941F7E4DE500AECC63 /* main.m */; };
+		C155CE981F7E4DE500AECC63 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = C155CE971F7E4DE500AECC63 /* AppDelegate.m */; };
+		C155CE9B1F7E4DE500AECC63 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C155CE9A1F7E4DE500AECC63 /* ViewController.m */; };
+		C155CE9E1F7E4DE500AECC63 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C155CE9C1F7E4DE500AECC63 /* Main.storyboard */; };
+		C155CEA01F7E4DE500AECC63 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C155CE9F1F7E4DE500AECC63 /* Assets.xcassets */; };
+		C155CEA31F7E4DE500AECC63 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C155CEA11F7E4DE500AECC63 /* LaunchScreen.storyboard */; };
+		C155CEAE1F7E4DE600AECC63 /* ____________Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = C155CEAD1F7E4DE600AECC63 /* ____________Tests.m */; };
+		C155CEB91F7E4DE600AECC63 /* ____________UITests.m in Sources */ = {isa = PBXBuildFile; fileRef = C155CEB81F7E4DE600AECC63 /* ____________UITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		C155CEAA1F7E4DE600AECC63 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C155CE881F7E4DE500AECC63 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C155CE8F1F7E4DE500AECC63;
+			remoteInfo = "自定义按钮文本和图片间距";
+		};
+		C155CEB51F7E4DE600AECC63 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = C155CE881F7E4DE500AECC63 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = C155CE8F1F7E4DE500AECC63;
+			remoteInfo = "自定义按钮文本和图片间距";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		C155CE901F7E4DE500AECC63 /* 自定义按钮文本和图片间距.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "自定义按钮文本和图片间距.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C155CE941F7E4DE500AECC63 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		C155CE961F7E4DE500AECC63 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		C155CE971F7E4DE500AECC63 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		C155CE991F7E4DE500AECC63 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		C155CE9A1F7E4DE500AECC63 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C155CE9D1F7E4DE500AECC63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C155CE9F1F7E4DE500AECC63 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C155CEA21F7E4DE500AECC63 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C155CEA41F7E4DE500AECC63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C155CEA91F7E4DE600AECC63 /* 自定义按钮文本和图片间距Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "自定义按钮文本和图片间距Tests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C155CEAD1F7E4DE600AECC63 /* ____________Tests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____________Tests.m"; sourceTree = "<group>"; };
+		C155CEAF1F7E4DE600AECC63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C155CEB41F7E4DE600AECC63 /* 自定义按钮文本和图片间距UITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "自定义按钮文本和图片间距UITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C155CEB81F7E4DE600AECC63 /* ____________UITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "____________UITests.m"; sourceTree = "<group>"; };
+		C155CEBA1F7E4DE600AECC63 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C155CE8D1F7E4DE500AECC63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C155CEA61F7E4DE600AECC63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C155CEB11F7E4DE600AECC63 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		C155CE871F7E4DE500AECC63 = {
+			isa = PBXGroup;
+			children = (
+				C155CE921F7E4DE500AECC63 /* 自定义按钮文本和图片间距 */,
+				C155CEAC1F7E4DE600AECC63 /* 自定义按钮文本和图片间距Tests */,
+				C155CEB71F7E4DE600AECC63 /* 自定义按钮文本和图片间距UITests */,
+				C155CE911F7E4DE500AECC63 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		C155CE911F7E4DE500AECC63 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C155CE901F7E4DE500AECC63 /* 自定义按钮文本和图片间距.app */,
+				C155CEA91F7E4DE600AECC63 /* 自定义按钮文本和图片间距Tests.xctest */,
+				C155CEB41F7E4DE600AECC63 /* 自定义按钮文本和图片间距UITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C155CE921F7E4DE500AECC63 /* 自定义按钮文本和图片间距 */ = {
+			isa = PBXGroup;
+			children = (
+				C155CE961F7E4DE500AECC63 /* AppDelegate.h */,
+				C155CE971F7E4DE500AECC63 /* AppDelegate.m */,
+				C155CE991F7E4DE500AECC63 /* ViewController.h */,
+				C155CE9A1F7E4DE500AECC63 /* ViewController.m */,
+				C155CE9C1F7E4DE500AECC63 /* Main.storyboard */,
+				C155CE9F1F7E4DE500AECC63 /* Assets.xcassets */,
+				C155CEA11F7E4DE500AECC63 /* LaunchScreen.storyboard */,
+				C155CEA41F7E4DE500AECC63 /* Info.plist */,
+				C155CE931F7E4DE500AECC63 /* Supporting Files */,
+			);
+			path = "自定义按钮文本和图片间距";
+			sourceTree = "<group>";
+		};
+		C155CE931F7E4DE500AECC63 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				C155CE941F7E4DE500AECC63 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		C155CEAC1F7E4DE600AECC63 /* 自定义按钮文本和图片间距Tests */ = {
+			isa = PBXGroup;
+			children = (
+				C155CEAD1F7E4DE600AECC63 /* ____________Tests.m */,
+				C155CEAF1F7E4DE600AECC63 /* Info.plist */,
+			);
+			path = "自定义按钮文本和图片间距Tests";
+			sourceTree = "<group>";
+		};
+		C155CEB71F7E4DE600AECC63 /* 自定义按钮文本和图片间距UITests */ = {
+			isa = PBXGroup;
+			children = (
+				C155CEB81F7E4DE600AECC63 /* ____________UITests.m */,
+				C155CEBA1F7E4DE600AECC63 /* Info.plist */,
+			);
+			path = "自定义按钮文本和图片间距UITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C155CE8F1F7E4DE500AECC63 /* 自定义按钮文本和图片间距 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C155CEBD1F7E4DE600AECC63 /* Build configuration list for PBXNativeTarget "自定义按钮文本和图片间距" */;
+			buildPhases = (
+				C155CE8C1F7E4DE500AECC63 /* Sources */,
+				C155CE8D1F7E4DE500AECC63 /* Frameworks */,
+				C155CE8E1F7E4DE500AECC63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "自定义按钮文本和图片间距";
+			productName = "自定义按钮文本和图片间距";
+			productReference = C155CE901F7E4DE500AECC63 /* 自定义按钮文本和图片间距.app */;
+			productType = "com.apple.product-type.application";
+		};
+		C155CEA81F7E4DE600AECC63 /* 自定义按钮文本和图片间距Tests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C155CEC01F7E4DE600AECC63 /* Build configuration list for PBXNativeTarget "自定义按钮文本和图片间距Tests" */;
+			buildPhases = (
+				C155CEA51F7E4DE600AECC63 /* Sources */,
+				C155CEA61F7E4DE600AECC63 /* Frameworks */,
+				C155CEA71F7E4DE600AECC63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C155CEAB1F7E4DE600AECC63 /* PBXTargetDependency */,
+			);
+			name = "自定义按钮文本和图片间距Tests";
+			productName = "自定义按钮文本和图片间距Tests";
+			productReference = C155CEA91F7E4DE600AECC63 /* 自定义按钮文本和图片间距Tests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		C155CEB31F7E4DE600AECC63 /* 自定义按钮文本和图片间距UITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C155CEC31F7E4DE600AECC63 /* Build configuration list for PBXNativeTarget "自定义按钮文本和图片间距UITests" */;
+			buildPhases = (
+				C155CEB01F7E4DE600AECC63 /* Sources */,
+				C155CEB11F7E4DE600AECC63 /* Frameworks */,
+				C155CEB21F7E4DE600AECC63 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				C155CEB61F7E4DE600AECC63 /* PBXTargetDependency */,
+			);
+			name = "自定义按钮文本和图片间距UITests";
+			productName = "自定义按钮文本和图片间距UITests";
+			productReference = C155CEB41F7E4DE600AECC63 /* 自定义按钮文本和图片间距UITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C155CE881F7E4DE500AECC63 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = "梁森";
+				TargetAttributes = {
+					C155CE8F1F7E4DE500AECC63 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = XJL3Q5Y9Q6;
+						ProvisioningStyle = Automatic;
+					};
+					C155CEA81F7E4DE600AECC63 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = XJL3Q5Y9Q6;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C155CE8F1F7E4DE500AECC63;
+					};
+					C155CEB31F7E4DE600AECC63 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = XJL3Q5Y9Q6;
+						ProvisioningStyle = Automatic;
+						TestTargetID = C155CE8F1F7E4DE500AECC63;
+					};
+				};
+			};
+			buildConfigurationList = C155CE8B1F7E4DE500AECC63 /* Build configuration list for PBXProject "自定义按钮文本和图片间距" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C155CE871F7E4DE500AECC63;
+			productRefGroup = C155CE911F7E4DE500AECC63 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C155CE8F1F7E4DE500AECC63 /* 自定义按钮文本和图片间距 */,
+				C155CEA81F7E4DE600AECC63 /* 自定义按钮文本和图片间距Tests */,
+				C155CEB31F7E4DE600AECC63 /* 自定义按钮文本和图片间距UITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C155CE8E1F7E4DE500AECC63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C155CEA31F7E4DE500AECC63 /* LaunchScreen.storyboard in Resources */,
+				C155CEA01F7E4DE500AECC63 /* Assets.xcassets in Resources */,
+				C155CE9E1F7E4DE500AECC63 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C155CEA71F7E4DE600AECC63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C155CEB21F7E4DE600AECC63 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C155CE8C1F7E4DE500AECC63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C155CE9B1F7E4DE500AECC63 /* ViewController.m in Sources */,
+				C155CE981F7E4DE500AECC63 /* AppDelegate.m in Sources */,
+				C155CE951F7E4DE500AECC63 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C155CEA51F7E4DE600AECC63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C155CEAE1F7E4DE600AECC63 /* ____________Tests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C155CEB01F7E4DE600AECC63 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C155CEB91F7E4DE600AECC63 /* ____________UITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		C155CEAB1F7E4DE600AECC63 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C155CE8F1F7E4DE500AECC63 /* 自定义按钮文本和图片间距 */;
+			targetProxy = C155CEAA1F7E4DE600AECC63 /* PBXContainerItemProxy */;
+		};
+		C155CEB61F7E4DE600AECC63 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = C155CE8F1F7E4DE500AECC63 /* 自定义按钮文本和图片间距 */;
+			targetProxy = C155CEB51F7E4DE600AECC63 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		C155CE9C1F7E4DE500AECC63 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C155CE9D1F7E4DE500AECC63 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C155CEA11F7E4DE500AECC63 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C155CEA21F7E4DE500AECC63 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C155CEBB1F7E4DE600AECC63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		C155CEBC1F7E4DE600AECC63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C155CEBE1F7E4DE600AECC63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = XJL3Q5Y9Q6;
+				INFOPLIST_FILE = "自定义按钮文本和图片间距/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "----------.------------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		C155CEBF1F7E4DE600AECC63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = XJL3Q5Y9Q6;
+				INFOPLIST_FILE = "自定义按钮文本和图片间距/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "----------.------------";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		C155CEC11F7E4DE600AECC63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = XJL3Q5Y9Q6;
+				INFOPLIST_FILE = "自定义按钮文本和图片间距Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "----------.------------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/自定义按钮文本和图片间距.app/自定义按钮文本和图片间距";
+			};
+			name = Debug;
+		};
+		C155CEC21F7E4DE600AECC63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = XJL3Q5Y9Q6;
+				INFOPLIST_FILE = "自定义按钮文本和图片间距Tests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "----------.------------Tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/自定义按钮文本和图片间距.app/自定义按钮文本和图片间距";
+			};
+			name = Release;
+		};
+		C155CEC41F7E4DE600AECC63 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = XJL3Q5Y9Q6;
+				INFOPLIST_FILE = "自定义按钮文本和图片间距UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "----------.------------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "自定义按钮文本和图片间距";
+			};
+			name = Debug;
+		};
+		C155CEC51F7E4DE600AECC63 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = XJL3Q5Y9Q6;
+				INFOPLIST_FILE = "自定义按钮文本和图片间距UITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "----------.------------UITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "自定义按钮文本和图片间距";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C155CE8B1F7E4DE500AECC63 /* Build configuration list for PBXProject "自定义按钮文本和图片间距" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C155CEBB1F7E4DE600AECC63 /* Debug */,
+				C155CEBC1F7E4DE600AECC63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C155CEBD1F7E4DE600AECC63 /* Build configuration list for PBXNativeTarget "自定义按钮文本和图片间距" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C155CEBE1F7E4DE600AECC63 /* Debug */,
+				C155CEBF1F7E4DE600AECC63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C155CEC01F7E4DE600AECC63 /* Build configuration list for PBXNativeTarget "自定义按钮文本和图片间距Tests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C155CEC11F7E4DE600AECC63 /* Debug */,
+				C155CEC21F7E4DE600AECC63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		C155CEC31F7E4DE600AECC63 /* Build configuration list for PBXNativeTarget "自定义按钮文本和图片间距UITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C155CEC41F7E4DE600AECC63 /* Debug */,
+				C155CEC51F7E4DE600AECC63 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C155CE881F7E4DE500AECC63 /* Project object */;
+}
